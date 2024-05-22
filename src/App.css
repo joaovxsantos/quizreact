@@ -1,0 +1,26 @@
+.container-start {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-start .left,
+.container-start .right {
+  width: 50%;
+}
+
+.container-start .left {
+  text-align: end;
+}
+
+.container-start .left .content-left {
+  display: inline-block;
+  text-align: center;
+}
+.container-start .left .content-left label {
+  color: var(--gray);
+}
+.container-start .left .content-left h1 {
+  font-size: 48px;
+}

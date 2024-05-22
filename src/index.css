@@ -1,0 +1,20 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --gray:#555555;
+  --green:#14e548;
+  --js-yellow: #efd81d;
+  --html-orange: #dd4b25;
+  --css-blue: #254bdd;
+  --react-blue: #5ed3f3;
+}
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
