@@ -35,8 +35,8 @@ function App() {
 
   const nextElement = () => {
 
-    if ((currentIndex + 1) >= 4) {
-      setcurrentIndex(4)
+    if ((currentIndex + 1) >= elementQuiz.options.length) {
+      setcurrentIndex(elementQuiz.options.length)
     } else {
       setcurrentIndex(currentIndex + 1)
       setcorrectChoice(undefined)
