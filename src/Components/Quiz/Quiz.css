@@ -3,9 +3,9 @@
 }
 
 .quiz-container .answers {
-  width: 500px;
+  /* width: 430px; */
   padding: 30px 0;
-  max-width: 90vw;
+  /* max-width: 80vw; */
 }
 
 .quiz-container .answers h3 {
@@ -16,7 +16,7 @@
 .quiz-container .answers ol {
   counter-reset: item;
   list-style-type: upper-alpha;
-  max-width: 90vw;
+  margin: auto;
 }
 .quiz-container .answers ol li {
   counter-increment: item;
@@ -24,7 +24,7 @@
   margin: auto;
   margin-bottom: 30px;
   width: 430px;
-  max-width: 100%;
+  max-width: 80vw;
   padding: 15px;
   border: none;
   border-radius: 5px;

@@ -1,8 +1,8 @@
 :root {
   --black: #000;
   --white: #fff;
-  --gray:#555555;
-  --green:#14e548;
+  --gray: #555555;
+  --green: #14e548;
   --js-yellow: #efd81d;
   --html-orange: #dd4b25;
   --css-blue: #254bdd;
@@ -17,5 +17,10 @@
 body {
   display: flex;
   min-height: 100vh;
+}
 
+@media screen and (max-width: 340px) {
+  body {
+    padding: 30px 0;
+  }
 }
