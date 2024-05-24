@@ -1,4 +1,3 @@
-import emojiIcon from '../../assets/ok.png'
 import './FinalPage.css'
 
 

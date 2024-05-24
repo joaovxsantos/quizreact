@@ -1,6 +1,5 @@
 import './Button.css'
 
-
 const Button = ({ children, bgColor, onClick }) => {
     return (
         <>
